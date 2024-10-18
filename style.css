@@ -1,0 +1,111 @@
+/* 
+    MAKE SURE YOU ADD COMMENTS FOR YOUR PART OF STYLING
+    BEFORE AND AFTER ENDING.....
+    USE var() FOR COLOR AND FONTS
+    USE ID="HEADING" FOR H1-H6 TAGS
+*/
+
+/* default reset starting */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --font-color: #000;
+    --background-color-white: #fff;
+    --background-yellow-color: #FFBF23;
+    --background-pink-color: #FFD7EF;
+    /* FONT TYPE */
+    --heading-font-family: "Space Grotesk", sans-serif;
+    --paragraph-font-family:  'Proxima Nova', sans-serif;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Proxima Nova Font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }  
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    min-height: 100vh;
+}
+#heading{
+    font-family: var(--heading-font-family);
+}
+p{
+    font-family: var(--paragraph-font-family);
+}
+/* default reset ending */
+
+
+
+/* main style start here */
+
+/* ..................abhishek part.......................... */
+#product{
+    background-color: var(--background-color-white);
+    padding: 10% 20% 20% 15%;
+    border-top: 1px solid;
+}
+.product-heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.product-para{
+    line-height: 1.6;
+    font-size: 16px;
+}
+.product-para-cantiner{
+    width: 60%;
+    margin-top: 30px;
+    
+}
+#img-cantainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+
+}
+#img-inside{
+    border: 1px solid;
+    width: 231px;
+    height: 299px;
+    border-radius: 10px;
+}
+#img-para-cantanier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.img-para-cantanier-inside{
+    font-size: 16px;
+}
+.img-para-heading{
+    line-height: 1.5;
+    text-align: left;
+    width: 60%;
+}
+.img-para{
+    font-size: 14px;
+    line-height: 2;
+    text-align: left;
+}
+/* .................abhishek part end ...........................*/
