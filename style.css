@@ -48,64 +48,17 @@ p{
 }
 /* default reset ending */
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|| MAIN STYLE START FROM HERE || @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|| ABHIRAM PART STARTING ||//////////////////////////////////////////////////////////////// */
+
+                                     /*CODE IN THIS BLOCK ONLY  */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|| ABHIRAM PART ENDING ||////////////////////////////////////////////////////////////////// */
 
 
-/* main style start here */
+/* #/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/|| ABHISHEK PART STARTING ||\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#*/
 
-/* ..................abhishek part.......................... */
-#product{
-    background-color: var(--background-color-white);
-    padding: 10% 20% 20% 15%;
-    border-top: 1px solid;
-}
-.product-heading{
-    font-size: 2.5rem;
-    font-weight: 400;
-}
-.product-para{
-    line-height: 1.6;
-    font-size: 16px;
-}
-.product-para-cantiner{
-    width: 60%;
-    margin-top: 30px;
-    
-}
-#img-cantainer{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 100px;
+                                       /* CODE IN THIS BLOCK ONLY */
 
-}
-#img-inside{
-    border: 1px solid;
-    width: 231px;
-    height: 299px;
-    border-radius: 10px;
-}
-#img-para-cantanier{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-.img-para-cantanier-inside{
-    font-size: 16px;
-}
-.img-para-heading{
-    line-height: 1.5;
-    text-align: left;
-    width: 60%;
-}
-.img-para{
-    font-size: 14px;
-    line-height: 2;
-    text-align: left;
-}
-/* .................abhishek part end ...........................*/
+/* #/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/|| ABHISHEK END STARTING ||\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#*/
