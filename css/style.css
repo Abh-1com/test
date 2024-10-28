@@ -1,0 +1,381 @@
+/* 
+    MAKE SURE YOU ADD COMMENTS FOR YOUR PART OF STYLING
+    BEFORE AND AFTER ENDING.....
+    USE var() FOR COLOR AND FONTS
+    USE ID="HEADING" FOR H1-H6 TAGS
+*/
+
+/* default reset starting */
+*{
+    box-sizing: border-box;
+    /* border: 1px solid rgb(245, 5, 5); */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --font-color: #000;
+    --background-color-white: #fff;
+    --background-yellow-color: #FFBF23;
+    --background-pink-color: #FFD7EF;
+    /* FONT TYPE */
+    --heading-font-family: "Space Grotesk", sans-serif;
+    --paragraph-font-family:  'Proxima Nova', sans-serif;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/Proxima Nova Font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }  
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    min-height: 100vh;
+    padding: 100px 200px;
+}
+#heading{
+    font-family: var(--heading-font-family);
+}
+p{
+    font-family: var(--paragraph-font-family);
+}
+/* default reset ending */
+
+
+
+/* main style start here */
+
+/* ..................abhishek part.......................... */
+#product{
+    background-color: var(--background-color-white);
+    /* padding: 10% 20% 5% 15%; */
+    border-top: 1px solid;
+}
+.product-heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.product-para{
+    line-height: 1.6;
+    font-size: 16px;
+}
+.product-para-cantiner{
+    width: 60%;
+    margin-top: 30px;
+    
+}
+#img-cantainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+#img-inside>img{
+    border: 1px solid;
+    width: 231px;
+    height: 299px;
+    border-radius: 10px;
+}
+#img-para-cantanier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+    /* border: 1px solid; */
+}
+.img-para-cantanier-inside{
+    font-size: 16px;
+}
+.img-para-heading{
+    line-height: 1.5;
+    text-align: left;
+    width: 60%;
+}
+.img-para{
+    font-size: 14px;
+    line-height: 2;
+    text-align: left;
+}
+#product2{
+    background-color: var(--background-color-white);
+    padding: 0% 20% 5% 15%;
+    /* border-top: 1px solid; */
+    position: relative;
+}
+.circle{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    z-index: 0;
+}
+svg>circle{
+    fill: #d3e6f8;
+}   
+#round>img{
+    border-radius: 10px;
+    height: 465px;
+    width: 422px;
+    position: relative;
+    z-index: 1;
+    top: 70px;
+    left: -70px;
+}
+.round-rectangle{
+    position: absolute;
+    z-index: 0;
+    width: 180px;
+    height: 123px;
+    left: 420px;
+    top: 415px;
+    /* border: 1px solid; */
+}
+svg>rect{
+    fill: #ffe5a7;
+}
+.vector-text{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    /* border: 1px solid; */
+    width: 450px;
+    padding: 2px;
+}
+.vector-para{
+    line-height: 2;
+}
+.vector-text-icon-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    margin-left: -40px;
+    /* border: 1px solid; */
+}
+.vector-text-icon-block>p{
+    width: 100px;
+    margin-left: -30px;
+}
+/* footer */
+footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    color: var(--background-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--font-color);
+
+}
+.icon-message-yellow{
+    position: fixed;
+    right: 80px;
+    z-index: 1;
+    bottom: 20px;
+    background-color: var(--background-yellow-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 20px 0.1px rgb(0, 0, 0, 0.3);
+}
+.get-head{
+    text-align: center;
+    font-size: 3rem;
+}
+button{
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    left: 450px;
+    background-color: #000;
+    color: var(--background-color-white);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: var(--background-color-white);
+    color: #000;
+    font-weight: bold;
+}
+#contact{
+    background-color: var(--background-yellow-color);
+    padding: 0;
+}
+.bottom-logo{
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: max-content;
+}
+.bottom-logo>i{
+    width: 60px;
+    height: 60px;
+}
+.logo-text{
+    position: absolute;
+    top: -20px;
+    left: 70px;
+    width: max-content;
+}
+.logo-text>h2{
+    font-size: 1.7rem;
+    width: max-content;
+}
+.logo-text>p{
+    font-size: 1rem;
+    margin-top: -19px;
+    width: max-content;
+}
+
+.contact-addre{
+    line-height: 1.8;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(2, max-content);
+    gap: 20px;
+}
+
+
+.terms>p>a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.contact-hedings{
+    margin-bottom: 35px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.text-contact-para{
+    font-size: 1.1rem;
+}
+#follow ,#follow-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+}
+.follow-text>p{
+    width: 250px;
+    line-height: 1.5;
+}
+.email-label{
+    font-family: var(--paragraph-font-family);
+    font-size: 1.2rem;
+}
+.email-label>sup{
+    font-size: 1.2rem;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+#email{
+    border: 3px solid #000;
+    background-color: var(--background-yellow-color);
+    border-radius: 5px;
+    height: 50px;
+    transition: all 0.1s ease;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 1rem;
+}
+#email:hover{
+    background-color: var(--background-color-white);
+}
+.check{
+    font-family: var(--paragraph-font-family);
+    font-size: 1.1rem;
+    position: relative;
+    left: 30px;
+    top: -38px;
+}
+#checkbox{
+    width: 25px;
+    height: 25px;
+    margin-left: -5px;
+}
+input[type="submit"]{
+    background-color: #000;
+    height: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color-white);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: all 0.1s ease;
+}
+input[type="submit"]:hover{
+    background-color: var(--background-yellow-color);
+    color: var(--font-color);
+
+}
+#social-media{
+    padding-top: 40px;
+}
+#social-media>p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+#social-media>p>a{
+    color: var(--font-color);
+}
+
+.contact-div{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 80px;
+    justify-content: center;
+    width: fit-content;
+    margin: 170px auto;
+
+}
+
+#bigimage{
+    width: 965px;
+    height: 573px;
+}
+#big-image-section-div{
+    padding: 100px 15vw;
+
+}
+#big-image-section{
+    position: relative;
+}
+#big-image-section::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 130px; 
+    background-color: var(--background-yellow-color);
+}
+/* .................abhishek part end ...........................*/

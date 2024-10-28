@@ -1,0 +1,33 @@
+
+
+.icon {
+    display: inline-block;
+    width: 50px;  /* Adjust size */
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* grid icon class */
+.icon-grid-square {
+    background-image: url('../icons/vector.svg'); 
+}
+
+/* message icon class */
+.icon-message{
+    background-image: url("../icons/filevector.svg");
+}
+
+.icon-message-yellow{
+    background-image: url('../icons/message.svg');
+}
+
+.icon-logos{
+    background-image: url('../icons/logo.svg');
+}
+
+
+.icon-big-image{
+    background-image: url('../icons/bigimage.svg');
+}
