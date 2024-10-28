@@ -18,7 +18,9 @@
 .icon-message{
     background-image: url("../icons/filevector.svg");
 }
-
+.icon-roundinsta{
+    background-image: url("../icons/Group.svg");
+}
 .icon-message-yellow{
     background-image: url('../icons/message.svg');
 }
