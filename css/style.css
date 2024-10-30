@@ -183,17 +183,7 @@ footer{
     background-color: var(--font-color);
 
 }
-.icon-message-yellow{
-    position: fixed;
-    right: 80px;
-    z-index: 1;
-    bottom: 20px;
-    background-color: var(--background-yellow-color);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    box-shadow: 1px 1px 20px 0.1px rgb(0, 0, 0, 0.3);
-}
+
 .get-head{
     text-align: center;
     font-size: 3rem;
@@ -377,5 +367,91 @@ input[type="submit"]:hover{
     width: 100%;
     height: 130px; 
     background-color: var(--background-yellow-color);
+}
+
+/* popup */
+.message-box-outer{
+    width: 280px;
+    border-radius: 15px;
+    height: 350px;
+    background-color: rgb(151, 155, 155);
+    border: none;
+    box-shadow: 5px 5px 11px;
+}
+.message-box-header{
+    background-color: #ffffff;
+    height: 90px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+}
+.message-box-header>p{
+    font-size: 0.8rem;
+    width: 500px;
+}
+.message-box-header-logo{
+    /* background-color: blue; */
+    padding: 0px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 190px auto;
+    grid-template-rows: 10px;
+}
+.message-box-form{
+    background-color: #ffffff;
+    position: relative;
+    top: 210px;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    margin: 8px;
+    border: 1px solid transparent;
+    background-color: #eee7e7;
+    border-radius: 10px;
+}
+.send{
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+}
+.paperpin{
+    margin-left: 8px;
+}
+
+
+.items{
+    position: fixed;
+    right: 80px;
+    z-index: 1;
+    bottom: 20px;
+    background-color: var(--background-yellow-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 20px 0.1px rgb(0, 0, 0, 0.3);
+    
+}
+.items details summary{
+    list-style: none;
+    width: fit-content;
+    cursor: pointer;
+}
+.items details{
+    position: relative;
+    transition: all 0.3s ease;
+}
+.message-box-outer{
+    position: absolute;
+    bottom: 40px;
+    left: unset;
+    right: 80px;
 }
 /* .................abhishek part end ...........................*/
