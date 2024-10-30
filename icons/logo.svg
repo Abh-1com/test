@@ -1,7 +1,11 @@
-<svg width="24" height="24" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg width="24" height="24" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <rect x="2" y="2" width="20" height="20" rx="3" ry="3"  fill="black"/>
     <g stroke-width="0.2">
     <circle cx="6" cy="13" r="1.8" fill="white" />
     <rect width="3" height="16" rx="1.2" ry="1.1" fill="white" x="14" y="4" transform="rotate(45,15,10)"/>
     </g>
+</svg> -->
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4ZM8 13C8 14.6569 6.65685 16 5 16C3.34315 16 2 14.6569 2 13C2 11.3431 3.34315 10 5 10C6.65685 10 8 11.3431 8 13ZM7.4049 18.2455C6.629 19.1073 6.69857 20.4348 7.5603 21.2107C8.42203 21.9866 9.7496 21.9171 10.5255 21.0553L21.9473 8.37011C22.7232 7.50838 22.6537 6.18081 21.7919 5.4049C20.9302 4.629 19.6026 4.69857 18.8267 5.5603L7.4049 18.2455Z" fill="black"/>
 </svg>
+
