@@ -181,6 +181,7 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: var(--font-color);
+    padding: 18px;
 
 }
 
